@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="AllTests" duration-ms="32967" started-at="2022-05-06T04:10:37 CDT" finished-at="2022-05-06T04:11:10 CDT">
+    <groups>
+    </groups>
+    <test name="PositiveTests" duration-ms="11121" started-at="2022-05-06T04:10:37 CDT" finished-at="2022-05-06T04:10:49 CDT">
+      <class name="com.herokuapp.theinternet.PositiveTests">
+        <test-method status="PASS" signature="loginTest()[pri:0, instance:com.herokuapp.theinternet.PositiveTests@ea1a8d5]" name="loginTest" duration-ms="11092" started-at="2022-05-06T04:10:38 CDT" finished-at="2022-05-06T04:10:49 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+      </class> <!-- com.herokuapp.theinternet.PositiveTests -->
+    </test> <!-- PositiveTests -->
+    <test name="NegativeTests" duration-ms="21836" started-at="2022-05-06T04:10:49 CDT" finished-at="2022-05-06T04:11:10 CDT">
+      <class name="com.herokuapp.theinternet.NegativeTests">
+        <test-method status="PASS" signature="incorrectPasswordTest()[pri:0, instance:com.herokuapp.theinternet.NegativeTests@4923ab24]" name="incorrectPasswordTest" duration-ms="9708" started-at="2022-05-06T04:10:49 CDT" finished-at="2022-05-06T04:10:58 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- incorrectPasswordTest -->
+        <test-method status="PASS" signature="incorrectUsernameTest()[pri:0, instance:com.herokuapp.theinternet.NegativeTests@4923ab24]" name="incorrectUsernameTest" duration-ms="12126" started-at="2022-05-06T04:10:58 CDT" finished-at="2022-05-06T04:11:10 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- incorrectUsernameTest -->
+      </class> <!-- com.herokuapp.theinternet.NegativeTests -->
+    </test> <!-- NegativeTests -->
+  </suite> <!-- AllTests -->
+</testng-results>

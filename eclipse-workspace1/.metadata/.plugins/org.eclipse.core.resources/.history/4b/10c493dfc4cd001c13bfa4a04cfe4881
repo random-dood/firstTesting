@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+  
+<suite name="NegativeTestsSuite" verbose="1" >
+
+ 
+  <test name="NegativeUsernameTests">
+    <parameter name="first-name"  value="Cedric"/>
+    <parameter name="first-name"  value="Cedric"/>
+    <parameter name="first-name"  value="Cedric"/>
+
+     <classes>
+      <class name="com.herokuapp.theinternet.NegativeTests">
+       
+      </class>
+    </classes>
+  </test>
+</suite>
