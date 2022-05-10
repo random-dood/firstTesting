@@ -2,12 +2,15 @@
 
 <suite name="Exceptions Tests Suite" verbose="1">
 
-	<test name="NotVisibleTest">
+	<test name="Exceptions Test">
 		<parameter name="browser" value="chrome"></parameter>
 		<classes>
 			<class name="com.herokuapp.theinternet.ExceptionsTests">
 				<methods>
-					<include name="notVisibleTest"></include>
+                   <!-- <exclude name="timeOutTest"></exclude> -->
+                   <!--     <include name="noSuchElementTest"></include> -->
+                   <!--    <include name="staleElementTest"></include> -->
+                         <include name="disabledElementTest"></include>
 				</methods>
 			</class>
 		</classes>
